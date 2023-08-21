@@ -54,3 +54,10 @@ button{
 button:hover{
     background-color: blueviolet;
 }
+
+.h1{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 700px;
+}
