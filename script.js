@@ -1,18 +1,18 @@
 // Defina as perguntas, opções de resposta e respostas corretas
 const questions = [
     {
-      question: "Qual é a capital do Brasil?",
-      options: ["Rio de Janeiro", "São Paulo", "Brasília", "Belo Horizonte"],
-      correctAnswer: 2, // A resposta correta está na terceira posição (índice 2) do array de opções.
+      question: "Explique as principais causas e consequências da Revolução Industrial no século XIX.",
+      options: ["Causas: Avanços tecnológicos; Condições de trabalho precárias. Consequências: Melhoria nas condições de vida; Crescimento das cidades.", "Causas: Guerras mundiais; Urbanização. Consequências: Desenvolvimento rural; Redução da produção industrial.", "Causas: Declínio das cidades; Escassez de recursos naturais. Consequências: Aumento da produção industrial; Migração para o campo.", "Causas: Expansão colonial; Revoltas camponesas. Consequências: Queda da produção industrial; Isolamento internacional."],
+      correctAnswer: 1,
     },
     {
-      question: "Qual é o maior planeta do sistema solar?",
-      options: ["Terra", "Marte", "Júpiter", "Vênus"],
+      question: "Qual é a solução para a equação quadrática 2x² - 5x +3 = 0?",
+      options: ["x = 1 e x = 3", "x = 2 e x = 5", "x= -1 e x= -3", "x = -2 e x = -3"],
       correctAnswer: 2,
     },
     {question: 'Qual o montante de uma aplicação de R$3.000,00 durante 6 meses a taxa de juros simples 10% ao ano?',
     options: ["R$ 3000", "R$ 4800", "R$ 3150", "R$ 3300"],
-    correctAnswer: 2,}
+    correctAnswer: 3,}
   ];
   
   // Inicialize variáveis para controlar o progresso do quiz
